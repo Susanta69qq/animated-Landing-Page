@@ -104,6 +104,7 @@ const Hero = () => {
       </section>
       <div className="video absolute inset-0">
         <video
+          id="hero-video"
           ref={videoRef}
           src="/videos/output.mp4"
           muted
